@@ -1,0 +1,39 @@
+****DAY 1------ We need to learn the basics of github, like how do we push our codes to github as well as how do we connect in the first place lets do this:
+   git status--->this tells you which  branch you are on. which file you have changed or created
+eg git status
+   
+   git remote -v ---->shows the githib web link onto which your folder is connected to.
+eg git remote -v
+   git remote set-url origin-----> this Changes the GitHub repository link that origin points to.
+eg git remote set-url origin https://github.com/evansofficial005-rgb/my-portfolio.git
+   git remote remove ----> this removes the remote you dont want
+eg git remote remove official
+
+
+
+remote (The Concept / Label): Think of a remote like a saved bookmark or contact name for a GitHub repository. Instead of writing [https://github.com/evansofficial005-rgb/my-portfolio.git](https://github.com/evansofficial005-rgb/my-portfolio.git) repeatedly, you give that URL a short name—such as origin or official. A single local project can have zero, one, or multiple remotes.
+
+Origin (The Default Name): When you clone a repository or set up your main GitHub target, Git automatically calls that primary remote origin by convention. There is nothing magical about the word origin—it is just the first/default nickname everyone uses for the main remote.
+
+
+   git add . ---->picks up or your edits and prepares them to pushed to git, simply it stages edits
+eg git add .
+   git commit -m "commit message" ---> this saves your staged file with the message of commit
+eg git commit -m "Update discipline dashboard layout"
+   git push -u origin  main --->Uploads your main branch to GitHub for the first time and links it so future pushes are shorter.
+eg git push -u origin main
+   git push ----> Uploads your latest saved commits to GitHub after the initial -u push is done.
+eg git push
+   git config user.name "..."-----> Sets the GitHub username attached to your commits in this project.
+eg git config user.name "evansofficial005-rgb"
+   git config user.email "..."
+eg git config user.email "YOUR_GITHUB_EMAIL"
+   cmdkey /list | Select-String -Pattern "github"--->Searches Windows saved logins to see if a github entry is stored on your PC.
+eg cmdkey /list | Select-String -Pattern "github"
+   cmdkey /delete:git:[https://github.com](https://github.com)-->Removes a saved GitHub login from Windows so Git stops using an old cached account.
+eg cmdkey /delete:git:https://github.com
+   git push https://... (with Token)---->Pushes your code directly using a Personal Access Token when browser pop-ups authenticate the wrong account.
+eg git push https://evansofficial005-rgb:YOUR_TOKEN@github.com/evansofficial005-rgb/my-portfolio.git main
+   
+
+
