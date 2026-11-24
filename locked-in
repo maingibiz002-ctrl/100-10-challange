@@ -34,6 +34,14 @@ eg cmdkey /list | Select-String -Pattern "github"
 eg cmdkey /delete:git:https://github.com
    git push https://... (with Token)---->Pushes your code directly using a Personal Access Token when browser pop-ups authenticate the wrong account.
 eg git push https://evansofficial005-rgb:YOUR_TOKEN@github.com/evansofficial005-rgb/my-portfolio.git main
-   
+
+DAY 2
+-today we want to learn javascript and all the baics required, lets get into it
+
+-->once we have installed node.js, to check the version of node we just type, node -v 
+bonus: npm stands for node package manager It is the default package manager and command-line tool that comes bundled automatically whenever you install Node.js.
+
+--> we had already started a series on javascrit so what we will do is just to revisit whata we leant earlier.
+
 
 
